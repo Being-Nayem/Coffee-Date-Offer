@@ -6,7 +6,7 @@ const maxHeight = window.innerHeight-buttonHeight;
 
 window.addEventListener('DOMContentLoaded', () => {
     const button2 = document.getElementById('Yes');
-    button2.addEventListener('click', () => alert('Thank u, love u.. see you at the coffee shop'))
+    button2.addEventListener('click', () => alert('Love you so much...see you at the coffee shop'))
     const button = document.getElementById('No');
     button.addEventListener('mouseover', () => {
         button.style.left = Math.floor(Math.random()*(maxWidth+1))+'px';
